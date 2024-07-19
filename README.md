@@ -5,7 +5,7 @@ Play a game based on Crossy Road with Studio5000, Logix Emulate, and FactoryTalk
 When testing and building this project, commmunications were set up as follows: 
 <br><br>
 In RSLinx Classic Lite --> configure drivers, "Virtual Backplane (SoftLogix58xx USB)" was selected and added with the default name in slot 1. <br>
-In Logix Emulate,  Emulate 5570 (V30), was added to slot 0 of the virtual backplane. After this Logix Emulate was as shown in Figure1.png. 
+In Logix Emulate,  Emulate 5570 (V30), was added to slot 0 of the virtual backplane. After this the Logix Emulate window was as shown in Figure1.png. 
 <br><br>
 By default, the communications in Crossy_Road.mer and Crossy_Road.api are configured accordingly, but of course you may change them for whatever controller you use. 
 <br><br>
