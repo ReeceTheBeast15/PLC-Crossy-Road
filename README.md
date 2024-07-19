@@ -7,7 +7,7 @@ When testing and building this project, commmunications were set up as follows:
 In RSLinx Classic Lite --> configure drivers, "Virtual Backplane (SoftLogix58xx USB)" was selected and added with the default name in slot 1. <br>
 In Logix Emulate,  Emulate 5570 (V30), was added to slot 0 of the virtual backplane. After this the Logix Emulate window was as shown in Figure1.png. 
 <br><br>
-By default, the communications in Crossy_Road.mer and Crossy_Road.api are configured accordingly, but of course you may change them for whatever controller you use. 
+By default, the communications in Crossy_Road.mer and Crossy_Road.api are configured accordingly, but of course you may change them for whatever controller you want.
 <br><br>
 Download and extract CrossyCode.zip. Open Crossy_Road.ACD; download program to the controller and put in run mode. Open and run Crossy_Road.mer. 
 When you select a character and hit 'PLAY', control player movement with the four buttons on the lower right-hand corner. 
