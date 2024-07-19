@@ -1,5 +1,5 @@
 # PLC-Crossy-Road
-Play a game based on Crossy Road with Studio5000, Logix Emulate, and FactoryTalk View!
+Play a game based on Crossy Road with Studio5000 and FactoryTalk View!
 
 <h2>How to play</h2>
 When testing and building this project, commmunications were set up as follows: 
@@ -68,11 +68,11 @@ If  _Row.Type_ = 1, any of its active cars are visible and animated. Cars are mo
 _Row.Direction_ is unused. 
 <h3>Cars</h3>
 
-UDT _Car_ has two properties: _Type_ and _Active_. Only _Active_ is used. If a car is active, it can hit the player and is visible on the screen. 
+UDT _Car_ has two properties: _Type_ (INT) and _Active_ (BOOL). Only _Active_ is used. If a car is active, it can hit the player and is visible on the screen. 
 
 <h3>Trees</h3>
 
-UDT _Tree_ has two properties: _Type_ and _Active_. Only _Active_ is used. If a tree is active, it can block the player and is visible on the screen. 
+UDT _Tree_ has two properties: _Type_ (INT) and _Active_ (BOOL). Only _Active_ is used. If a tree is active, it can block the player and is visible on the screen. 
 
 <h3>Random Numbers</h3>
 
@@ -93,6 +93,3 @@ A working game was my goal for this project, and so it is quite minimal. I think
 - The cars only move in one direction: Need I say more?
   
 - All the cars and trees are identical: Originally this is not what I was going for, but I just wasn't feeling like ungrouping the global row object (see the above) and making things more complicated by turning one tree into three overlayed trees of different types and doing the same for the cars.  On the logic side, all that would need to be done is to randomize tree types and car types.
-
-
-
